@@ -8,7 +8,8 @@ minify "yes"
 ```
 to the `fxmanifest.lua`<br>
 <br>
-This will go through **every file** in the `client/` folder and minify the contents of that file.
+This will go through **every file** in the `client/` folder, minify the contents of the file, and copy in a new folder called `client_min`, it is important you change this in the `fxmanifest.lua`, so the minified files are loaded.<br>
+I would recommend adding `client_min/` to your `.gitignore`
 ### <u>This will not protect your code</u>
 It will only make it harder to read for the average player
 ```lua
