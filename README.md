@@ -9,7 +9,7 @@ minify "yes"
 to the `fxmanifest.lua`<br>
 <br>
 This will go through **every file** in the `client/` folder and minify the contents of that file.
-### <u>This will not protect your code from malicious players</u>
+### <u>This will not protect your code</u>
 It will only make it harder to read for the average player
 ```lua
 -- before
