@@ -1,6 +1,7 @@
 Automatically [minify](https://en.wikipedia.org/wiki/Minification_(programming)) all client **`Lua`** files when the server starts
 
 ## Setup
+Download the latest [release](https://github.com/pachxl/minify/releases) and place in your `resources` folder, rename to `minify`<br>
 In your server.cfg, add `ensure minify` at the start of your resource list, it is key that this resource starts before any other script you want to use it on.<br>
 This __will not__ run this on every resource by default, to enable it, add 
 ```lua
